@@ -1,0 +1,7 @@
+---
+applications:
+- name: test-python-service
+  buildpack: https://github.com/cloudfoundry/buildpack-python.git
+  memory: 512M
+  instances: 1
+
